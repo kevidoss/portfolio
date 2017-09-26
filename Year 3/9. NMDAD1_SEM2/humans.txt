@@ -1,0 +1,19 @@
+# humanstxt.org/
+# The humans responsible & technology colophon
+
+# TEAM
+
+    Kevin Dossche -- DEV
+    Anthony De Rouck -- DES
+
+
+# THANKS
+
+    Arteveldehogeschool
+    Dieter De Weirdt
+    Philippe De Pauw-Waterschoot
+
+# TECHNOLOGY COLOPHON
+
+    HTML5, CSS3, JavaScript, Jekyll, Sass
+    jQuery, Modernizr, Handlebars, Leaflet, Bootstrap

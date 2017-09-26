@@ -1,0 +1,6 @@
+User-agent: *
+Disallow: /.idea/
+Disallow: /data/
+Disallow: /scripts/
+Disallow: /styles/
+Sitemap: /sitemap.xml

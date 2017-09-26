@@ -1,0 +1,36 @@
+/* TEAM */
+
+	Kevin Dossche
+	kevidoss@student.arteveldehs.be
+	België                                
+
+                             
+	Anthony De Rouck
+	anthdero@student.arteveldehs.be	
+	België
+
+    							
+/* THANKS */
+
+	Philippe De Pauw-Waterschoot    							
+	Jonas Pottie
+
+                        
+
+
+                                
+/* SITE */
+
+                                
+    	Laatste aanpassing: 2015/12/22
+                
+    	Standaarden: HTML5, CSS3, JavaScript	
+                     
+    	Componenten: Modernizr, jQuery	
+                     
+    	Software: Adobe Dreamweaver CC, Adobe InDesign CC, Adobe Photoshop	
+       
+                            
+
+
+                    

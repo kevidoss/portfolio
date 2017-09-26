@@ -1,0 +1,24 @@
+@charset "utf-8";
+/* CSS Document */
+body {width: 960px; margin:auto auto auto auto; background-image:url(Images/italianflag.jpg); background-position:center; background-repeat:no-repeat; background-size:cover; font-family: helvetica, arial; font-size:18px; font-style:italic;}
+h1, p, ul, h2 {text-align:center;}
+.left {float: left; margin-right: 10px;}
+.right {float: right; margin-left: 10px;}
+#directions {text-align:left; float: left;}
+table, td {border: 1px solid black;}
+#order {-webkit-column-count:2; text-align:left; -moz-column-count:2;}
+ul {margin: 1px; padding: 1px; list-style-type: none;}
+li {float: left; margin-left: 90px;}
+#navigation {background-color: #010087; border-radius: 10px; padding: 10px; overflow: auto;}
+a:link {color: #00B014; text-decoration: none;}
+a:visited {color: #0AFF00; text-decoration: none;}
+a:hover {color: #00B014; text-decoration: underline;}
+a:active {color: #56FBFE; text-decoration: underline;}
+footer {border: 2px solid black; padding-top: 20px; padding-bottom: 40px; padding-left: 100px; padding-right: 20px; margin-top: 395px;}
+#recipe {border: 2px solid black; padding-top: 20px; padding-bottom: 40px; padding-left: 100px; padding-right: 20px; margin-top: 500px; margin-bottom: 0px;}
+#origin {border: 2px solid black; padding-top: 20px; padding-bottom: 40px; padding-left: 100px; padding-right: 20px; margin-top: 245px;}
+#online {border: 2px solid black; padding-top: 20px; padding-bottom: 40px; padding-left: 100px; padding-right: 20px; margin-top: 100px;}
+#chef {border: 2px solid black; padding-top: 20px; padding-bottom: 40px; padding-left: 100px; padding-right: 20px; margin-top: 310px;}
+#table1 {width: 417; height: 304; margin-left: 123px;}
+#table2 {width: 445; height: 318;}
+button {color: #0AFF00; background-color: #0015FF; border-color: #003492; width: 100px; height: 40px; float: right;}

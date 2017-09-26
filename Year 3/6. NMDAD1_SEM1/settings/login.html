@@ -1,0 +1,244 @@
+<!doctype html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7" lang=""> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8" lang=""> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9" lang=""> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang=""> <!--<![endif]-->
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <title>WeRead - Login</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="icon" sizes="16x16 32x32 64x64" href="../favicon.ico">
+      	<link rel="icon" type="image/png" sizes="196x196" href="../favicon-192.png">
+      	<link rel="icon" type="image/png" sizes="160x160" href="../favicon-160.png">
+      	<link rel="icon" type="image/png" sizes="96x96" href="../favicon-96.png">
+      	<link rel="icon" type="image/png" sizes="64x64" href="../favicon-64.png">
+      	<link rel="icon" type="image/png" sizes="32x32" href="../favicon-32.png">
+      	<link rel="icon" type="image/png" sizes="16x16" href="../favicon-16.png">
+      	<link rel="apple-touch-icon" href="../favicon-57.png">
+      	<link rel="apple-touch-icon" sizes="114x114" href="../favicon-114.png">
+      	<link rel="apple-touch-icon" sizes="72x72" href="../favicon-72.png">
+      	<link rel="apple-touch-icon" sizes="144x144" href="../favicon-144.png">
+      	<link rel="apple-touch-icon" sizes="60x60" href="../favicon-60.png">
+      	<link rel="apple-touch-icon" sizes="120x120" href="../favicon-120.png">
+      	<link rel="apple-touch-icon" sizes="76x76" href="../favicon-76.png">
+      	<link rel="apple-touch-icon" sizes="152x152" href="../favicon-152.png">
+      	<link rel="apple-touch-icon" sizes="180x180" href="../favicon-180.png">
+      	<meta name="msapplication-TileColor" content="#FFFFFF">
+      	<meta name="msapplication-TileImage" content="../favicon-144.png">
+      	<meta name="msapplication-config" content="../browserconfig.xml">
+        <meta name="google-signin-client_id" content="877965125756-5611848l9aq03plmv9sk8ccadag7ikrk.apps.googleusercontent.com">
+
+        <link rel="stylesheet" href="../css/bootstrap.min.css">
+        <link rel="stylesheet" href="../css/bootstrap-theme.min.css">
+        <link rel="stylesheet" href="../css/main.css">
+
+        <script src="../js/vendor/modernizr-2.8.3-respond-1.4.2.min.js"></script>
+    </head>
+    <body>
+      <!-- Script to initialize facebook login -->
+      <script>
+  window.fbAsyncInit = function() {
+    FB.init({
+      appId      : '1190322204419097',
+      xfbml      : true,
+      version    : 'v2.8'
+    });
+  };
+
+  (function(d, s, id){
+     var js, fjs = d.getElementsByTagName(s)[0];
+     if (d.getElementById(id)) {return;}
+     js = d.createElement(s); js.id = id;
+     js.src = "//connect.facebook.net/en_US/sdk.js";
+     fjs.parentNode.insertBefore(js, fjs);
+   }(document, 'script', 'facebook-jssdk'));
+</script>
+        <!--[if lt IE 8]>
+            <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+        <![endif]-->
+        <nav class="navbar navbar-inverse sidebar" role="navigation">
+          <div class="container-fluid">
+      		<!-- Brand and toggle get grouped for better mobile display -->
+      		<div class="navbar-header">
+      			<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-sidebar-navbar-collapse-1">
+      				<span class="sr-only">Toggle navigation</span>
+      				<span class="icon-bar"></span>
+      				<span class="icon-bar"></span>
+      				<span class="icon-bar"></span>
+      			</button>
+      			<a class="navbar-brand" href="../index.html">WeRead</a>
+      		</div>
+      		<!-- Collect the nav links, forms, and other content for toggling -->
+      		<div class="collapse navbar-collapse" id="bs-sidebar-navbar-collapse-1">
+      			<ul class="nav navbar-nav">
+              <li ><a href="../index.html">Home<span style="font-size:16px;" class="pull-right hidden-xs showopacity glyphicon glyphicon-home"></span></a></li>
+      				<li ><a href="../people/people.html">People<span style="font-size:16px;" class="pull-right hidden-xs showopacity glyphicon glyphicon-user"></span></a></li>
+      				<li ><a href="../messages/messages.html">Messages<span style="font-size:16px;" class="pull-right hidden-xs showopacity glyphicon glyphicon-envelope"></span></a></li>
+              <li ><a href="../map/map.html">Map<span style="font-size:16px;" class="pull-right hidden-xs showopacity glyphicon glyphicon-flag"></span></a></li>
+              <li ><a href="../search/search.html">Search reviews<span style="font-size:16px;" class="pull-right hidden-xs showopacity glyphicon glyphicon-search"></span></a></li>
+      				<li class="dropdown">
+      					<a href="#" class="dropdown-toggle" data-toggle="dropdown">Settings <span class="caret"></span><span style="font-size:16px;" class="pull-right hidden-xs showopacity glyphicon glyphicon-cog"></span></a>
+      					<ul class="dropdown-menu forAnimate" role="menu">
+      						<li class="active-page"><a href="login.html">Login</a></li>
+      						<li><a href="disclaimer.html">Disclaimer</a></li>
+      						<li><a href="contact.html">Contact</a></li>
+      						<li class="divider"></li>
+      						<li><a href="https://www.facebook.com" target="_blank">Visit us on Facebook</a></li>
+      					</ul>
+      				</li>
+      			</ul>
+            <div class="clock"></div>
+      		</div>
+      	</div>
+      </nav>
+
+      <div class="container">
+    <div class="row">
+
+      <div class="main">
+
+        <h3>Please Log In, or <a href="signup.html" style="color: #ec6d58;">Sign Up</a></h3>
+        <div class="row">
+          <div class="col-xs-6 col-sm-6 col-md-6">
+            <!-- Facebook login button, using personal facebook appID registered to my account -->
+            <script>
+              // This is called with the results from from FB.getLoginStatus().
+              function statusChangeCallback(response) {
+                console.log('statusChangeCallback');
+                console.log(response);
+                // The response object is returned with a status field that lets the
+                // app know the current login status of the person.
+                // Full docs on the response object can be found in the documentation
+                // for FB.getLoginStatus().
+                if (response.status === 'connected') {
+                  // Logged into your app and Facebook.
+                  testAPI();
+                } else if (response.status === 'not_authorized') {
+                  // The person is logged into Facebook, but not your app.
+                  document.getElementById('status').innerHTML = 'Please log ' +
+                    'into this app.';
+                } else {
+                  // The person is not logged into Facebook, so we're not sure if
+                  // they are logged into this app or not.
+                  document.getElementById('status').innerHTML = 'Please log ' +
+                    'into Facebook.';
+                }
+              }
+
+              // This function is called when someone finishes with the Login
+              // Button.  See the onlogin handler attached to it in the sample
+              // code below.
+              function checkLoginState() {
+                FB.getLoginStatus(function(response) {
+                  statusChangeCallback(response);
+                });
+              }
+
+              window.fbAsyncInit = function() {
+              FB.init({
+                appId      : '1190322204419097',
+                cookie     : true,  // enable cookies to allow the server to access
+                                    // the session
+                xfbml      : true,  // parse social plugins on this page
+                version    : 'v2.8' // use graph api version 2.8
+              });
+
+              // Now that we've initialized the JavaScript SDK, we call
+              // FB.getLoginStatus().  This function gets the state of the
+              // person visiting this page and can return one of three states to
+              // the callback you provide.  They can be:
+              //
+              // 1. Logged into your app ('connected')
+              // 2. Logged into Facebook, but not your app ('not_authorized')
+              // 3. Not logged into Facebook and can't tell if they are logged into
+              //    your app or not.
+              //
+              // These three cases are handled in the callback function.
+
+              FB.getLoginStatus(function(response) {
+                statusChangeCallback(response);
+              });
+
+              };
+
+              // Load the SDK asynchronously
+              (function(d, s, id) {
+                var js, fjs = d.getElementsByTagName(s)[0];
+                if (d.getElementById(id)) return;
+                js = d.createElement(s); js.id = id;
+                js.src = "//connect.facebook.net/en_US/sdk.js";
+                fjs.parentNode.insertBefore(js, fjs);
+              }(document, 'script', 'facebook-jssdk'));
+
+              // Here we run a very simple test of the Graph API after login is
+              // successful.  See statusChangeCallback() for when this call is made.
+              function testAPI() {
+                console.log('Welcome!  Fetching your information.... ');
+                FB.api('/me', function(response) {
+                  console.log('Successful login for: ' + response.name);
+                  document.getElementById('status').innerHTML =
+                    'Thanks for logging in, ' + response.name + '!';
+                });
+              }
+            </script>
+
+            <!--
+              Below we include the Login Button social plugin. This button uses
+              the JavaScript SDK to present a graphical Login button that triggers
+              the FB.login() function when clicked.
+            -->
+
+            <fb:login-button scope="public_profile,email" onlogin="checkLoginState();">
+            </fb:login-button>
+          </div>
+          <!-- Using javascript add a Google sign-in button, this button uses personal Google API key -->
+          <div class="col-xs-6 col-sm-6 col-md-6">
+            <div class="g-signin2" data-onsuccess="onSignIn"></div>
+          </div>
+        </div>
+        <div class="login-or">
+          <hr class="hr-or">
+          <span class="span-or">or</span>
+        </div>
+
+        <form role="form">
+          <div class="form-group">
+            <label for="inputUsernameEmail">Username or email</label>
+            <input type="text" class="form-control" id="inputUsernameEmail">
+          </div>
+          <div class="form-group">
+            <a class="pull-right" href="#" style="color: #ec6d58;">Forgot password?</a>
+            <label for="inputPassword">Password</label>
+            <input type="password" class="form-control" id="inputPassword">
+          </div>
+          <div class="checkbox pull-right">
+            <label>
+              <input type="checkbox">
+              Remember me </label>
+          </div>
+          <button type="submit" class="btn btn signup-btn">
+            Log In
+          </button>
+        </form>
+
+      </div>
+
+    </div>
+  </div>
+
+
+<script src="https://apis.google.com/js/platform.js" async defer></script>
+<script src="../js/glogin.js"></script>
+
+    </div> <!-- /container -->
+
+        <script src="https://code.jquery.com/jquery-2.1.3.min.js"></script>
+
+        <script src="../js/vendor/bootstrap.min.js"></script>
+        <script src="../js/clock.js"></script>
+        <script src="../js/main.js"></script>
+
+    </body>
+</html>

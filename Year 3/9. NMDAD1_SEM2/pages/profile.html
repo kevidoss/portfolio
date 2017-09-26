@@ -1,0 +1,108 @@
+---
+title: Profile
+---
+
+<!doctype html>
+  <html class="no-js" lang="">
+
+    {% include head.html %}
+
+    <body>
+
+            {% include nav.html%}
+
+<div id="sb_widget"></div>
+
+
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12 profieltitel">
+          <img src="" alt="Dwight Stender" class="col-md-2" style="border-radius: 100%;">
+          <h1 class="col-md-10" id="result"></h1>
+        </div>
+      </div>
+      <div class="row">
+
+        <div class="col-md-5">
+          <h3>Favourite Books</h3>
+               <table>
+                 <tr>
+                   <th>Title</th>
+                   <th>Author</th>
+                 </tr>
+                 <tr>
+                   <td>A Tale of Two Cities</td>
+                   <td>Charles Dickens</td>
+                 </tr>
+                 <tr>
+                   <td>The Lord of the Rings</td>
+                   <td>J.R.R Tolkien</td>
+                 </tr>
+                 <tr>
+                   <td>And Then There Were None</td>
+                   <td>Agatha Christie</td>
+                 </tr>
+                 <tr>
+                   <td>The Name of the Rose</td>
+                   <td>Umberto Eco</td>
+                 </tr>
+                 <tr>
+                   <td>1984</td>
+                   <td>George Orwell</td>
+                 </tr>
+                 <tr>
+                   <td>The Kite Runner</td>
+                   <td>Khaled Hosseini</td>
+                 </tr>
+                 <tr>
+                   <td>Pride and Prejudice</td>
+                   <td>Jane Austen</td>
+                 </tr>
+                 <tr>
+                   <td>Wuthering Heights</td>
+                   <td>Emily Brontë</td>
+                 </tr>
+               </table>
+        </div>
+        <div class="col-md-5">
+          <h3>Pictures</h3>
+          <img src="../img/pic1.png" alt="picture-1" class="profpics">
+          <img src="../img/pic2.jpg" alt="picture-2" class="profpics">
+          <img src="../img/pic3.jpg" alt="picture-3" class="profpics">
+          <img src="../img/pic4.jpg" alt="picture-4" class="profpics">
+          <img src="../img/pic5.jpg" alt="picture-3" class="profpics">
+          <img src="../img/pic6.jpg" alt="picture-4" class="profpics">
+        </div>
+      </div>
+
+    </div> <!-- /container -->
+
+
+
+
+{% include footer.html %}
+
+<script src="../js/handlebars-v4.0.5.js"></script>
+<script src="../js/people.js"></script>
+<script src="../js/profile.js"></script>
+<script>
+var clickedId;
+clickedId = localStorage.getItem('clickId');
+
+if (persons.some(p => p.id == clickedId)) {
+  var first = persons[clickedId].firstName;
+  var last = persons[clickedId].surName;
+  document.getElementById("result").innerHTML = first + " " + last;
+  var image = persons[clickedId].picture;
+  document.getElementsByTagName("img")[0].setAttribute("src", image);
+} else {
+  document.getElementById("result").innerHTML = "Oops, something went wrong!";
+}
+
+
+</script>
+
+
+</body>
+{% include sendbird.html %}
+</html>

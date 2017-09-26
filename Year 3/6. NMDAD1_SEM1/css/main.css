@@ -1,0 +1,404 @@
+/* ==========================================================================
+   Author's custom styles
+   ========================================================================== */
+* {font-family: 'NeoSans', Verdana, sans-serif;}
+
+body {background-color: #dedede;}
+.navbar {background-color: #ec6d58;}
+
+.active-page {
+  font-weight: bold;
+}
+
+.item { margin-bottom: 25px; }
+.w100 { width: 100%; }
+
+.highlight {background-color: #ec6d58; color: white;}
+
+body,html{
+height: 100%;
+}
+
+
+h1,h2,h3,h5,h6 {color: #fff;}
+
+
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+		margin-bottom: 2%;
+}
+
+td, th {
+    border: 1px solid #ec6d58;
+    text-align: left;
+    padding: 8px;
+}
+
+#snowflakeContainer {
+    position: absolute;
+    left: 0px;
+    top: 0px;
+}
+.snowflake {
+    padding-left: 15px;
+    font-family: Cambria, Georgia, serif;
+    font-size: 14px;
+    line-height: 24px;
+    position: fixed;
+    color: #FFFFFF;
+    user-select: none;
+    z-index: 1000;
+}
+.snowflake:hover {
+    cursor: default;
+}
+
+tr:nth-child(even) {
+    background-color: #ec6d58; color: #fff;
+}
+
+.profpics {width: 49%; height: auto; margin-bottom: 3%;}
+
+#map {
+	margin-top: 3%;
+}
+
+#error {margin-top: 3%;}
+
+.ahs-logo {
+	position: relative;
+	display: block;
+	width: 120px;
+	height: 60px;
+}
+.ahs-logo__a {
+	position: absolute;
+	display: block;
+	width: 60px;
+	height: 60px;
+	border: 20px solid #ed9800;
+	border-radius: 50%;
+	border-bottom-right-radius: 0;
+}
+.ahs-logo__s {
+	position: absolute;
+	display: block;
+	width: 20px;
+	height: 20px;
+	background: #bacb00;
+	left: 80px;
+	transition: all 368ms ease-in 0s;
+}
+.ahs-logo__s--1 {
+	top: 0px;
+}
+.ahs-logo__s--2 {
+	bottom: 0px;
+}
+.ahs-logo:hover .ahs-logo__s--1 {
+	transform: translateY(40px);
+	transition: all 368ms ease-in 0s;
+}
+.ahs-logo:hover .ahs-logo__s--2 {
+	transform: translateY(-40px);
+	transition: all 368ms ease-in 0s;
+}
+
+.clock {
+  text-align: center;
+	font-size: 15px;
+	color: #ffffff;
+  margin-bottom: 2%;
+}
+
+.homebtnlink {width: 100%;}
+
+.googlebtn {background-color: #db4437;}
+
+.facebookbtn {background-color: #3b5998;}
+
+#btnContactUs {color: #fff;
+    background-color: #ec6d58;
+    border-color: #f97a67;}
+
+
+    .blue { background: blue }
+    .grey { background: grey }
+    .chats-row { height: 100vh; }
+    .chats-row div {
+        height: 50%;
+        border: 1px solid #ddd;
+        padding: 0px;
+    }
+
+    .list-group-item {
+        border: none;
+        border-top: 1px solid #ddd;
+        border-bottom: 1px solid #ddd;
+
+    }
+    .list-group-item:first-child {
+        border-top: none;
+        border-top-left-radius: 0px;
+        border-top-right-radius: 0px;
+    }
+
+
+    .current-chat {
+        height: 100%;
+        border: 1px solid #ddd;
+    }
+
+    .chat-toolbar-row {
+        background-color: #f5f5f5;
+    }
+
+    .chat-toolbar {
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+
+    .current-chat-area {
+        padding-top: 10px;
+        overflow: auto;
+        height: 85vh;
+    }
+
+    .current-chat-footer {
+        position: absolute;
+        bottom: 0;
+
+    }
+
+#books {columns: 4;}
+
+.profpic {width: 50%; border-radius: 100px; margin-top: 3%; padding: 1%;}
+
+/* remove outer padding */
+.main .row{
+padding: 0px;
+margin: 0px;
+}
+
+/*Remove rounded coners*/
+
+nav.sidebar.navbar {
+border-radius: 0px;
+}
+
+nav.sidebar, .main{
+-webkit-transition: margin 200ms ease-out;
+  -moz-transition: margin 200ms ease-out;
+  -o-transition: margin 200ms ease-out;
+  transition: margin 200ms ease-out;
+}
+
+/* Add gap to nav and right windows.*/
+.main{
+padding: 10px 10px 0 10px;
+max-width: 320px;
+   margin: 0 auto;
+}
+#wrap {height: 95%;}
+
+.login-or {
+    position: relative;
+    font-size: 18px;
+    color: #aaa;
+    margin-top: 10px;
+            margin-bottom: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+  .span-or {
+    display: block;
+    position: absolute;
+    left: 50%;
+    top: -2px;
+    margin-left: -25px;
+    background-color: #fff;
+    width: 50px;
+    text-align: center;
+  }
+  .hr-or {
+    background-color: #cdcdcd;
+    height: 1px;
+    margin-top: 0px !important;
+    margin-bottom: 0px !important;
+  }
+
+  legend{
+  	color:#141823;
+  	font-size:25px;
+  	font-weight:bold;
+  }
+  .signup-btn {
+    background: #ec6d58;
+    -webkit-border-radius: 4;
+    -moz-border-radius: 4;
+    border-radius: 4px;
+    font-weight: bold;
+    font-family: Arial;
+    color: #ffffff;
+    font-size: 20px;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+  }
+
+  .signup-btn:hover {
+    background: #fff;
+    color: #ec6d58;
+    text-decoration: none;
+  }
+  .navbar-default .navbar-brand{
+  		color:#fff;
+  		font-size:30px;
+  		font-weight:bold;
+  	}
+
+  .navbar-brand {
+    font-weight: 900;
+  }
+  .form .form-control { margin-bottom: 10px; }
+  @media (min-width:768px) {
+  	#home{
+  		margin-top:50px;
+  	}
+  	#home .slogan{
+  		color: #0e385f;
+  		line-height: 29px;
+  		font-weight:bold;
+  	}
+  }
+/* .....NavBar: Icon only with coloring/layout.....*/
+
+/*small/medium side display*/
+@media (min-width: 768px) {
+
+/*Allow main to be next to Nav*/
+.main{
+  position: absolute;
+  width: calc(100% - 40px); /*keeps 100% minus nav size*/
+  margin-left: 40px;
+  float: right;
+}
+
+/*lets nav bar to be showed on mouseover*/
+nav.sidebar:hover + .main{
+  margin-left: 200px;
+}
+
+/*Center Brand*/
+nav.sidebar.navbar.sidebar>.container .navbar-brand, .navbar>.container-fluid .navbar-brand {
+  margin-left: 0px;
+}
+/*Center Brand*/
+nav.sidebar .navbar-brand, nav.sidebar .navbar-header{
+  text-align: center;
+  width: 100%;
+  margin-left: 0px;
+}
+
+/*Center Icons*/
+nav.sidebar a{
+  padding-right: 13px;
+}
+
+/*adds border top to first nav box */
+nav.sidebar .navbar-nav > li:first-child{
+  border-top: 1px #e5e5e5 solid;
+}
+
+/*adds border to bottom nav boxes*/
+nav.sidebar .navbar-nav > li{
+  border-bottom: 1px #e5e5e5 solid;
+}
+
+/* Colors/style dropdown box*/
+nav.sidebar .navbar-nav .open .dropdown-menu {
+  position: static;
+  float: none;
+  width: auto;
+  margin-top: 0;
+  background-color: transparent;
+  border: 0;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+}
+
+/*allows nav box to use 100% width*/
+nav.sidebar .navbar-collapse, nav.sidebar .container-fluid{
+  padding: 0 0px 0 0px;
+}
+
+/*colors dropdown box text */
+.navbar-inverse .navbar-nav .open .dropdown-menu>li>a {
+  color: #fff;
+}
+.navbar-inverse .navbar-nav .open .dropdown-menu>li>a:hover {
+  color: #ec6d58;;
+}
+
+/*gives sidebar width/height*/
+nav.sidebar{
+  width: 200px;
+  height: 100%;
+  margin-left: -160px;
+  float: left;
+  z-index: 1;
+  margin-bottom: 0px;
+  position: absolute;
+  box-shadow: 5px 5px 1px #888888;
+}
+
+/*give sidebar 100% width;*/
+nav.sidebar li {
+  width: 100%;
+}
+
+/* Move nav to full on mouse over*/
+nav.sidebar:hover{
+  margin-left: 0px;
+}
+/*for hiden things when navbar hidden*/
+.forAnimate{
+  opacity: 0;
+}
+}
+
+/* .....NavBar: Fully showing nav bar..... */
+
+@media (min-width: 1330px) {
+
+/*Allow main to be next to Nav*/
+.main{
+  width: calc(100% - 200px); /*keeps 100% minus nav size*/
+  margin-left: 200px;
+}
+
+/*Show all nav*/
+nav.sidebar{
+  margin-left: 0px;
+  float: left;
+}
+/*Show hidden items on nav*/
+nav.sidebar .forAnimate{
+  opacity: 1;
+}
+}
+
+nav.sidebar .navbar-nav .open .dropdown-menu>li>a:hover, nav.sidebar .navbar-nav .open .dropdown-menu>li>a:focus {
+color: #ec6d58;;
+background-color: #fff;
+}
+
+nav:hover .forAnimate{
+opacity: 1;
+}
+section{
+padding-left: 15px;
+}
+
+.nav {margin-bottom: 3%;}

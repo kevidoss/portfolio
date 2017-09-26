@@ -1,0 +1,124 @@
+@charset "utf-8";
+/* CSS Document */
+#navigation {
+font-weight:bold;
+color:#904A04;
+background-color:rgba(232,179,72,0.95);
+margin-top:-20px;
+font-size:24px;
+height:95px;
+position:fixed;}
+
+.logo {
+background:url(Images/logo.png) 0 0 no-repeat;
+background-size: 100%;
+width: 348px;
+height:90px;
+text-indent: -9999px;
+position:relative;
+top:-15px;
+}
+
+#padding {margin-left:100px;}
+
+a:link {color:#904A04; text-decoration:none;}
+a:visited {color:rgba(0,0,0,0.92); text-decoration:none;}
+#navigation a:hover {color:#904A04; font-size:40px;}
+a:active {color:#593B04; text-decoration:none;}
+a:hover {color:#904A04; font-size:21px; font-weight:bold;}
+.parallax {color:#FFFFFF;}
+
+section.module h2 {
+  margin-bottom: 35px;
+  font-family: "Roboto Slab", serif;
+  font-size: 30px;
+}
+section.module p {
+  margin-bottom: 35px;
+  font-size: 18px;
+  font-weight: 300;
+}
+
+section.module.content {
+  padding: 40px 0;
+  background-color:rgba(243,199,112,0.90);
+  color:#5F2A19;
+}
+section.module.parallax {
+  height: 650px;
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+section.module.parallax h1 {
+  color:#F5F5F5;
+  font-size: 75px;
+  line-height: 600px;
+  font-weight: 700;
+  text-align: center;
+  text-transform: uppercase;
+  text-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+section.module.parallax-1 {
+  background-image:url(Images/american-2.jpg);
+}
+
+section.module.parallax-2 {background-image:url(Images/mumford-1.jpg);
+height:575px;}
+
+section.module.parallax-3 {background-image:url(Images/american-5.jpg);
+height:575px;}
+
+section.module.parallax-4 {background-image:url(Images/american-7.jpg);
+height:575px;}
+
+section.module.parallax-5 {background-image:url(Images/american-9.jpg);
+height:575px;}
+
+section.module.parallax-6 {background-image:url(Images/blake-shelton.jpg);
+height:575px;}
+
+section.module.parallax-7 {background-image:url(Images/country-1.jpg);
+height:575px;}
+
+section.module.parallax-8 {background-image:url(Images/country-2.jpg);
+height:575px;}
+
+section.module.parallax-9 {background-image:url(Images/country-3.jpg);
+height:575px;}
+
+section.module.parallax-10 {background-image:url(Images/country-4.jpg);
+height:575px;}
+
+section.module.parallax-11 {background-image:url(Images/country-10.jpg);
+height:600px;}
+
+section.module.parallax-12 {background-image:url(Images/country-9.jpg);
+height:575px;}
+
+section.module.parallax-13 {background-image:url(Images/country-5.jpg);
+height:575px;}
+
+
+#ps {font-style:italic;}
+
+#footer {background-color:#E8B348; height:50px;}
+
+#blog a:hover {color:rgba(78,51,3,1.0);}
+
+tfoot {font-style:italic;}
+
+#textarea {height:110px;}
+
+#required {font-style:italic; font-size:16px; margin-top:5px;}
+
+#button {width: 175px; background-color:rgba(232,179,72,0.95);color:#904A04; border-color:rgba(133,77,20,0.45); margin-top:15px;}
+
+input {background-color:rgba(230,174,60,0.88); border-color:rgba(133,77,20,0.45);}
+
+form {font-weight:bold;}
+#form1 {margin-bottom:10px;}

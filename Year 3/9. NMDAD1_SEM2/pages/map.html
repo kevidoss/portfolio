@@ -1,0 +1,35 @@
+---
+title: Map
+---
+
+<!doctype html>
+  <html class="no-js" lang="">
+
+    {% include head.html %}
+
+    <body style="margin-top: -1.3%;">
+
+            {% include nav.html%}
+
+<div id="sb_widget"></div>
+
+      <!-- Dataset from datatank.stad.gent with markers showing all library locations in Ghent -->
+        <div class="container">
+          <div class="row">
+            <h2 style="padding-top: 1%;">Find your library</h2>
+            <div id="map">
+              <embed src="https://datatank.stad.gent/4/cultuursportvrijetijd/bibliotheek.map" width="100%" height="500vh">
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+
+        {% include footer.html %}
+
+
+    </body>
+    {% include sendbird.html %}
+</html>

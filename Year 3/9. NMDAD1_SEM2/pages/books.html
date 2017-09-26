@@ -1,0 +1,41 @@
+---
+title: Books
+---
+
+<!doctype html>
+  <html class="no-js" lang="">
+
+      {% include head.html %}
+
+    <body>
+
+      {% include nav.html%}
+
+
+      <div id="sb_widget"></div>
+
+            <div class="container">
+              <div class="row">
+                <div class="col-md-11">
+                    <h2>Find your favourite book</h2>
+                </div>
+              </div>
+                    <div class="row">
+                      <div class="col-md-11">
+                        <input oninput="w3.filterHTML('#books', 'p', this.value)" placeholder="Search your favourite book...">
+                        <!-- Dataset from datatank.stad.gent with "everything" in the library in Ghent, filtered to show only books (in main javascript file) -->
+                        <div id="books"></div>
+                      </div>
+                    </div>
+            </div>
+
+
+
+      <script src="https://www.w3schools.com/lib/w3.js"></script>
+
+      {% include footer.html %}
+
+
+    </body>
+    {% include sendbird.html %}
+</html>
