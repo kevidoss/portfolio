@@ -1,0 +1,16 @@
+/* Scrollbar */
+::-webkit-scrollbar {
+    width: .7rem;
+    &-track {
+        box-shadow: inset 0 0 .5rem grey;
+        border-radius: 1rem;
+    }
+    &-thumb {
+        background: rgba($color-primary-light, 0.75);
+        border-radius: 1rem;
+    }
+    &-thumb:hover {
+        background: rgba($color-primary-dark, 0.75);
+    }
+
+}

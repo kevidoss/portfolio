@@ -1,0 +1,30 @@
+/*
+COLORS:
+
+Light green: #7ed56f
+Medium green: #55c57a
+Dark green: #28b485
+
+Light blue: #55c57a
+Dark blue: #64affa
+*/
+
+@import "abstracts/functions";
+@import "abstracts/mixins";
+@import "abstracts/variables";
+
+@import "base/base";
+@import "base/animations";
+@import "base/typography";
+@import "base/utilities";
+
+@import "components/button";
+@import "components/scrollbar";
+@import "components/composition";
+@import "components/feature-box";
+@import "components/card";
+
+@import "layout/header";
+@import "layout/grid";
+
+@import "pages/home";
